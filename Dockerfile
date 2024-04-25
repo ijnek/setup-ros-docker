@@ -31,10 +31,10 @@ ARG EXTRA_APT_PACKAGES
 
 # See http://label-schema.org/rc1/ for label documentation
 LABEL org.label-schema.schema-version="1.0"
-LABEL org.label-schema.name="ros-tooling/setup-ros-docker"
+LABEL org.label-schema.name="ijnek/setup-ros-docker"
 LABEL org.label-schema.description="ROS GitHub Action CI base image"
-LABEL org.label-schema.url="https://github.com/ros-tooling/setup-ros-docker"
-LABEL org.label-schema.vcs-url="https://github.com/ros-tooling/setup-ros-docker.git"
+LABEL org.label-schema.url="https://github.com/ijnek/setup-ros-docker"
+LABEL org.label-schema.vcs-url="https://github.com/ijnek/setup-ros-docker.git"
 LABEL org.label-schema.vcs-ref="${VCS_REF}"
 LABEL org.label-schema.vendor="ROS Tooling Working Group"
 

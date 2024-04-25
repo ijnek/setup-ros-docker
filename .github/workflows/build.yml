@@ -54,7 +54,7 @@ jobs:
             ROS_DISTRO=none
           tags: |
             rostooling/setup-ros-docker:${{ matrix.base_image_name }}-${{ matrix.base_image_tag }}-latest
-            ghcr.io/ros-tooling/setup-ros-docker/setup-ros-docker-${{ matrix.base_image_name }}-${{ matrix.base_image_tag }}:master
+            ghcr.io/ijnek/setup-ros-docker/setup-ros-docker-${{ matrix.base_image_name }}-${{ matrix.base_image_tag }}:master
 
   build_ubuntu_docker_image_ros:
     strategy:
@@ -164,4 +164,4 @@ jobs:
           ROS_DISTRO=${{ matrix.ros_distro }}
         tags: |
           rostooling/setup-ros-docker:${{ matrix.output_image_tag }}-latest
-          ghcr.io/ros-tooling/setup-ros-docker/setup-ros-docker-${{ matrix.output_image_tag }}:master
+          ghcr.io/ijnek/setup-ros-docker/setup-ros-docker-${{ matrix.output_image_tag }}:master
